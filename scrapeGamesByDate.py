@@ -4,8 +4,8 @@ import pandas as pd
 
 from datetime import datetime as dt
 
-
-DATE_FORMAT = '%Y-%m-%d'
+### Constants for use later
+DATE_FORMAT = '%Y-%m-%d' 
 BASE_URL="https://gd2.mlb.com/components/"+ \
           "game/mlb/year_%s/month_%s/day_%s/grid.json"
 wanted_cols = ['away_code','away_file_code', 'away_name_abbrev',
@@ -23,15 +23,20 @@ Where the date is formated 'yyyy-mm-dd'
 More info in readme.txt"""
 
 def establish_directory(directory_name=records_dir):
+  """specs require an output directory for csvs. This
+  function checks if directory defined in constants exists
+  or else creates it"""
   if not os.path.exists(directory_name):
     os.makedirs(directory_name)
     print(directory_name)
 
 def print_help():
+  """Utility to handle misformated arguments"""
   print(help_string)
   exit()
 
 def validate_date(date_arg):
+  """Ensures date is a date of proper format"""
     try:
       date = dt.strptime(date_arg, DATE_FORMAT)
     except ValueError:
@@ -39,12 +44,16 @@ def validate_date(date_arg):
     return date_arg
 
 def format_request(date):
+  """Generate the formatted request URL for date"""
   date = date.split('-')
   y, m, d = date[0], date[1], date[2]
   url = BASE_URL%(y, m, d)
   return url
 
 def request_data(url):
+  """Fetches the data from formatted URL. 
+  Will exit with error message if date is in future,
+  or no games were played on specified date"""
   r = requests.get(url).content
   try:
     j = json.loads(r)
@@ -57,7 +66,6 @@ def request_data(url):
   except ValueError:
     print("No accessible records for provided date")
     exit()
-
 
 def create_df(data):
   df = pd.DataFrame(data)
@@ -78,24 +86,26 @@ def write_to_csv(df, date):
 if __name__ == "__main__":
   establish_directory()
 
+  ### Process the sys args and check that there are 2
+  ### (script name and date), and that the date is
+  ### properly formatted
   args = sys.argv
-  
   if len(args) <> 2:
     print_help()
-
   date = sys.argv[1]
-
   date = validate_date(date)
-
   if not date:
     print("""Incorrectly formatted date argument.""")
     print_help()
-  
+ 
+  ### Step by step execution of descriptively named functions
   url = format_request(date)
   data = request_data(url)
   df = create_df(data)
   df = drop_unwanted_columns(df, wanted_cols)
   write_to_csv(df, date)
+
+
 
 
 
