@@ -104,9 +104,9 @@ print('query completed, closing db connection')
 # Would have been much easier to do this all in Pandas,
 # but it was an SQL exercise
 filename = 'mlb_player_2016_slashlines.csv'
-df = pd.DataFrame(results,columns=['batter_id', 'name', 'PA', 
+df = pd.DataFrame(results, columns=['batter_id', 'name', 'PA', 
                                     'AB', 'HIT', 'AVG', 'OBP', 'SLG'])
 df.drop(columns=['PA','HIT'], inplace=True)
 df.to_csv(filename)
-print('data written to %s \n goodbye'%(filename))
+print('data written to %s \ngoodbye'%(filename))
 
