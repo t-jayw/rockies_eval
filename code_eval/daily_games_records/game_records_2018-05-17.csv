@@ -1,11 +1,11 @@
 ,away_code,away_file_code,away_name_abbrev,away_score,away_team_id,away_team_name,calendar_event_id,double_header_sw,event_time,game_nbr,game_pk,game_type,gameday_sw,group,home_code,home_file_code,home_name_abbrev,home_score,home_team_id,home_team_name,id,ind,inning,media_state,series,series_num,status,tbd_flag,top_inning,venue,venue_id
 0,lan,la,LAD,7,119,Dodgers,14-530056-2018-05-17,N,0:10 AM,1,530056,R,P,MLB,mia,mia,MIA,0,146,Marlins,2018/05/17/lanmlb-miamlb-1,F,9,media_dead,Regular Season,3,Final,N,N,Marlins Park,4169
 1,sdn,sd,SD,4,135,Padres,14-530059-2018-05-17,N,7:05 PM,1,530059,R,P,MLB,pit,pit,PIT,5,134,Pirates,2018/05/17/sdnmlb-pitmlb-1,F,9,media_dead,Regular Season,1,Final,N,Y,PNC Park,31
-2,oak,oak,OAK,10,133,Athletics,14-530057-2018-05-17,N,7:07 PM,1,530057,R,P,MLB,tor,tor,TOR,5,141,Blue Jays,2018/05/17/oakmlb-tormlb-1,O,9,media_dead,Regular Season,1,Game Over,N,N,Rogers Centre,14
+2,oak,oak,OAK,10,133,Athletics,14-530057-2018-05-17,N,7:07 PM,1,530057,R,P,MLB,tor,tor,TOR,5,141,Blue Jays,2018/05/17/oakmlb-tormlb-1,F,9,media_dead,Regular Season,1,Final,N,N,Rogers Centre,14
 3,bal,bal,BAL,2,110,Orioles,14-529642-2018-05-17,N,7:10 PM,1,529642,R,P,MLB,bos,bos,BOS,6,111,Red Sox,2018/05/17/balmlb-bosmlb-1,F,9,media_dead,Regular Season,1,Final,N,Y,Fenway Park,3
-4,phi,phi,PHI,6,143,Phillies,14-530058-2018-05-17,N,7:15 PM,1,530058,R,P,MLB,sln,stl,STL,2,138,Cardinals,2018/05/17/phimlb-slnmlb-1,I,9,media_dead,Regular Season,1,In Progress,N,N,Busch Stadium,2889
+4,phi,phi,PHI,6,143,Phillies,14-530058-2018-05-17,N,7:15 PM,1,530058,R,P,MLB,sln,stl,STL,2,138,Cardinals,2018/05/17/phimlb-slnmlb-1,F,9,media_dead,Regular Season,1,Final,N,N,Busch Stadium,2889
 5,chn,chc,CHC,,112,Cubs,14-530053-2018-05-17,N,7:35 PM,1,530053,R,P,MLB,atl,atl,ATL,,144,Braves,2018/05/17/chnmlb-atlmlb-1,D,,media_dead,Regular Season,4,Postponed,N,N,SunTrust Park,4705
-6,tex,tex,TEX,2,140,Rangers,14-530061-2018-05-17,N,8:10 PM,1,530061,R,P,MLB,cha,cws,CWS,1,145,White Sox,2018/05/17/texmlb-chamlb-1,I,8,media_dead,Regular Season,1,In Progress,N,N,Guaranteed Rate Field,4
-7,tba,tb,TB,0,139,Rays,14-530060-2018-05-17,N,10:07 PM,1,530060,R,P,MLB,ana,ana,LAA,0,108,Angels,2018/05/17/tbamlb-anamlb-1,I,3,media_dead,Regular Season,1,In Progress,N,Y,Angel Stadium of Anaheim,1
-8,det,det,DET,0,116,Tigers,14-530055-2018-05-17,N,10:10 PM,1,530055,R,P,MLB,sea,sea,SEA,0,136,Mariners,2018/05/17/detmlb-seamlb-1,I,2,media_dead,Regular Season,1,In Progress,N,N,Safeco Field,680
-9,col,col,COL,3,115,Rockies,14-530054-2018-05-17,N,10:15 PM,1,530054,R,P,MLB,sfn,sf,SF,0,137,Giants,2018/05/17/colmlb-sfnmlb-1,I,2,media_dead,Regular Season,1,In Progress,N,Y,AT&T Park,2395
+6,tex,tex,TEX,2,140,Rangers,14-530061-2018-05-17,N,8:10 PM,1,530061,R,P,MLB,cha,cws,CWS,4,145,White Sox,2018/05/17/texmlb-chamlb-1,F,9,media_dead,Regular Season,1,Final,N,Y,Guaranteed Rate Field,4
+7,tba,tb,TB,7,139,Rays,14-530060-2018-05-17,N,10:07 PM,1,530060,R,P,MLB,ana,ana,LAA,1,108,Angels,2018/05/17/tbamlb-anamlb-1,F,9,media_dead,Regular Season,1,Final,N,N,Angel Stadium of Anaheim,1
+8,det,det,DET,3,116,Tigers,14-530055-2018-05-17,N,10:10 PM,1,530055,R,P,MLB,sea,sea,SEA,2,136,Mariners,2018/05/17/detmlb-seamlb-1,F,9,media_dead,Regular Season,1,Final,N,N,Safeco Field,680
+9,col,col,COL,5,115,Rockies,14-530054-2018-05-17,N,10:15 PM,1,530054,R,P,MLB,sfn,sf,SF,3,137,Giants,2018/05/17/colmlb-sfnmlb-1,F,12,media_dead,Regular Season,1,Final,N,N,AT&T Park,2395

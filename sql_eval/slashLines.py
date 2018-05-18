@@ -84,19 +84,29 @@ GROUP BY batter_id
 """
 
 # manage and utilize connection to mysql server
-cnx = mysql.connector.connect(user='tyler_wood', password='GoRockies2018',
-host="rockies-data-engineer.cxac4memkn4c.us-east-1.rds.amazonaws.com",
-port=3306)
+try:
+  cnx = mysql.connector.connect(user='tyler_wood', password='GoRockies2018',
+  host="rockies-data-engineer.cxac4memkn4c.us-east-1.rds.amazonaws.com",
+  port=3306)
+except mysql.connector.errors.ProgrammingError:
+  print('Invalid DB credentials. Please update connection params in the script')
+  exit()
+print('successfully connected to db')
+
 cursor = cnx.cursor()
+print('executing query')
 cursor.execute(slash_query)
 results = cursor.fetchall()
 cnx.close()
+print('query completed, closing db connection')
 
 # Load data to df, drop unneeded column, export to csv
 # Would have been much easier to do this all in Pandas,
 # but it was an SQL exercise
+filename = 'mlb_player_2016_slashlines.csv'
 df = pd.DataFrame(results, 
 					columns=['batter_id', 'name', 'PA', 'AB', 'HIT', 'AVG', 'OBP', 'SLG'])
 df.drop(columns=['PA','HIT'], inplace=True)
-df.to_csv('mlb_player_2016_slashlines.csv')
+df.to_csv(filename)
+print('data written to %s \n goodbye'%(filename))
 
