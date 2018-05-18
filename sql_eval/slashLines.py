@@ -65,22 +65,21 @@ SELECT batter_id,
 FROM mlb.pbp_play_by_play
 LEFT JOIN mlb.player_master name ON batter_id = name.player_id
 -- Primary filtering of non PA event_types
-AND event_type NOT IN (
-                       'fan_interference',
-                       'runner_interference',
-                       'error',
-                       'other_out',
-                       'cs_double_play',
-                       'passed_ball',
-                       'wild_pitch',
-                       'other_advance',
-                       'defensive_indiff',
-                       'batter_interference',
-                       'balk')
-WHERE
-    event_type NOT LIKE 'caught_stealing%' 
-    AND event_type NOT LIKE 'pickoff%'
-    AND event_type NOT LIKE 'stolen_base%'
+WHERE 
+  event_type NOT IN ('fan_interference',
+                     'runner_interference',
+                     'error',
+                     'other_out',
+                     'cs_double_play',
+                     'passed_ball',
+                     'wild_pitch',
+                     'other_advance',
+                     'defensive_indiff',
+                     'batter_interference',
+                     'balk')
+  AND event_type NOT LIKE 'caught_stealing%' 
+  AND event_type NOT LIKE 'pickoff%'
+  AND event_type NOT LIKE 'stolen_base%'
 GROUP BY batter_id
 """
 
@@ -98,6 +97,6 @@ cnx.close()
 # but it was an SQL exercise
 df = pd.DataFrame(results, 
 					columns=['batter_id', 'name', 'PA', 'AB', 'HIT', 'AVG', 'OBP', 'SLG'])
-df.drop(columns=['HIT'], inplace=True)
+df.drop(columns=['PA','HIT'], inplace=True)
 df.to_csv('mlb_player_2016_slashlines.csv')
 
