@@ -1,5 +1,5 @@
 daily_games_record/*
-
+.DS_Store
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
