@@ -1,0 +1,16 @@
+,away_code,away_file_code,away_name_abbrev,away_score,away_team_id,away_team_name,calendar_event_id,double_header_sw,event_time,game_nbr,game_pk,game_type,gameday_sw,group,home_code,home_file_code,home_name_abbrev,home_score,home_team_id,home_team_name,id,ind,inning,media_state,status,tbd_flag,top_inning,venue,venue_id
+0,nya,nyy,NYY,3,147,Yankees,14-490538-2017-05-05,N,2:20 PM,1,490538,R,P,MLB,chn,chc,CHC,2,112,Cubs,2017/05/05/nyamlb-chnmlb-1,F,9,media_archive,Final,N,N,Wrigley Field,17
+1,sfn,sf,SF,3,137,Giants,14-490539-2017-05-05,N,6:40 PM,1,490539,R,P,MLB,cin,cin,CIN,13,113,Reds,2017/05/05/sfnmlb-cinmlb-1,F,9,media_archive,Final,N,Y,Great American Ball Park,2602
+2,cha,cws,CWS,2,145,White Sox,14-490531-2017-05-05,N,7:05 PM,1,490531,R,P,MLB,bal,bal,BAL,4,110,Orioles,2017/05/05/chamlb-balmlb-1,F,9,media_archive,Final,N,Y,Oriole Park at Camden Yards,2
+3,mil,mil,MIL,0,158,Brewers,14-490537-2017-05-05,N,7:05 PM,1,490537,R,P,MLB,pit,pit,PIT,4,134,Pirates,2017/05/05/milmlb-pitmlb-1,F,9,media_archive,Final,N,Y,PNC Park,31
+4,was,was,WSH,4,120,Nationals,14-490543-2017-05-05,N,7:05 PM,1,490543,R,P,MLB,phi,phi,PHI,2,143,Phillies,2017/05/05/wasmlb-phimlb-1,F,9,media_archive,Final,N,N,Citizens Bank Park,2681
+5,mia,mia,MIA,7,146,Marlins,14-490536-2017-05-05,N,7:10 PM,1,490536,R,P,MLB,nyn,nym,NYM,8,121,Mets,2017/05/05/miamlb-nynmlb-1,F,9,media_archive,Final,N,Y,Citi Field,3289
+6,tor,tor,TOR,8,141,Blue Jays,14-490542-2017-05-05,N,7:10 PM,1,490542,R,P,MLB,tba,tb,TB,4,139,Rays,2017/05/05/tormlb-tbamlb-1,F,9,media_archive,Final,N,N,Tropicana Field,12
+7,sln,stl,STL,10,138,Cardinals,14-490540-2017-05-05,N,7:35 PM,1,490540,R,P,MLB,atl,atl,ATL,0,144,Braves,2017/05/05/slnmlb-atlmlb-1,F,9,media_archive,Final,N,N,SunTrust Park,4705
+8,bos,bos,BOS,3,111,Red Sox,14-490530-2017-05-05,N,8:10 PM,1,490530,R,P,MLB,min,min,MIN,4,142,Twins,2017/05/05/bosmlb-minmlb-1,F,9,media_archive,Final,N,N,Target Field,3312
+9,cle,cle,CLE,1,114,Indians,14-490532-2017-05-05,N,8:15 PM,1,490532,R,P,MLB,kca,kc,KC,3,118,Royals,2017/05/05/clemlb-kcamlb-1,F,9,media_archive,Final,N,Y,Kauffman Stadium,7
+10,ari,ari,ARI,6,109,D-backs,14-490529-2017-05-05,N,8:40 PM,1,490529,R,P,MLB,col,col,COL,3,115,Rockies,2017/05/05/arimlb-colmlb-1,F,9,media_archive,Final,N,N,Coors Field,19
+11,det,det,DET,7,116,Tigers,14-490533-2017-05-05,N,10:05 PM,1,490533,R,P,MLB,oak,oak,OAK,2,133,Athletics,2017/05/05/detmlb-oakmlb-1,F,9,media_archive,Final,N,N,Oakland Coliseum,10
+12,hou,hou,HOU,7,117,Astros,14-490534-2017-05-05,N,10:07 PM,1,490534,R,P,MLB,ana,ana,LAA,6,108,Angels,2017/05/05/houmlb-anamlb-1,F,10,media_archive,Final,N,N,Angel Stadium of Anaheim,1
+13,lan,la,LAD,8,119,Dodgers,14-490535-2017-05-05,N,10:10 PM,1,490535,R,P,MLB,sdn,sd,SD,2,135,Padres,2017/05/05/lanmlb-sdnmlb-1,F,9,media_archive,Final,N,N,Petco Park,2680
+14,tex,tex,TEX,3,140,Rangers,14-490541-2017-05-05,N,10:10 PM,1,490541,R,P,MLB,sea,sea,SEA,1,136,Mariners,2017/05/05/texmlb-seamlb-1,F,13,media_archive,Final,N,N,Safeco Field,680

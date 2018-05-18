@@ -1,0 +1,16 @@
+,away_code,away_file_code,away_name_abbrev,away_score,away_team_id,away_team_name,calendar_event_id,double_header_sw,event_time,game_nbr,game_pk,game_type,gameday_sw,group,home_code,home_file_code,home_name_abbrev,home_score,home_team_id,home_team_name,id,ind,inning,media_state,status,tbd_flag,top_inning,venue,venue_id
+0,cle,cle,CLE,1,114,Indians,14-490981-2017-06-07,N,3:10 PM,1,490981,R,P,MLB,col,col,COL,8,115,Rockies,2017/06/07/clemlb-colmlb-1,F,9,media_archive,Final,N,Y,Coors Field,19
+1,was,was,WSH,1,120,Nationals,14-490993-2017-06-07,N,3:10 PM,1,490993,R,P,MLB,lan,la,LAD,2,119,Dodgers,2017/06/07/wasmlb-lanmlb-1,F,9,media_archive,Final,N,Y,Dodger Stadium,22
+2,tor,tor,TOR,7,141,Blue Jays,14-490992-2017-06-07,N,3:35 PM,1,490992,R,P,MLB,oak,oak,OAK,5,133,Athletics,2017/06/07/tormlb-oakmlb-1,F,10,media_archive,Final,N,N,Oakland Coliseum,10
+3,bos,bos,BOS,0,111,Red Sox,14-490979-2017-06-07,N,7:05 PM,1,490979,R,P,MLB,nya,nyy,NYY,8,147,Yankees,2017/06/07/bosmlb-nyamlb-1,F,9,media_archive,Final,N,Y,Yankee Stadium,3313
+4,pit,pit,PIT,6,134,Pirates,14-490988-2017-06-07,N,7:05 PM,1,490988,R,P,MLB,bal,bal,BAL,9,110,Orioles,2017/06/07/pitmlb-balmlb-1,F,11,media_archive,Final,N,N,Oriole Park at Camden Yards,2
+5,cha,cws,CWS,1,145,White Sox,14-490980-2017-06-07,N,7:10 PM,1,490980,R,P,MLB,tba,tb,TB,3,139,Rays,2017/06/07/chamlb-tbamlb-1,F,9,media_archive,Final,N,Y,Tropicana Field,12
+6,ana,ana,LAA,0,108,Angels,14-490983-2017-06-07,N,7:10 PM,1,490983,R,P,MLB,det,det,DET,4,116,Tigers,2017/06/07/anamlb-detmlb-1,F,9,media_archive,Final,N,Y,Comerica Park,2394
+7,sln,stl,STL,4,138,Cardinals,14-490991-2017-06-07,N,7:10 PM,1,490991,R,P,MLB,cin,cin,CIN,6,113,Reds,2017/06/07/slnmlb-cinmlb-1,F,9,media_archive,Final,N,Y,Great American Ball Park,2602
+8,phi,phi,PHI,1,143,Phillies,14-490987-2017-06-07,N,7:35 PM,1,490987,R,P,MLB,atl,atl,ATL,14,144,Braves,2017/06/07/phimlb-atlmlb-1,F,9,media_archive,Final,N,Y,SunTrust Park,4705
+9,mia,mia,MIA,6,146,Marlins,14-490984-2017-06-07,N,8:05 PM,1,490984,R,P,MLB,chn,chc,CHC,5,112,Cubs,2017/06/07/miamlb-chnmlb-1,F,9,media_archive,Final,N,N,Wrigley Field,17
+10,nyn,nym,NYM,4,121,Mets,14-490986-2017-06-07,N,8:05 PM,1,490986,R,P,MLB,tex,tex,TEX,3,140,Rangers,2017/06/07/nynmlb-texmlb-1,F,9,media_archive,Final,N,N,Globe Life Park in Arlington,13
+11,sfn,sf,SF,3,137,Giants,14-490990-2017-06-07,N,8:10 PM,1,490990,R,P,MLB,mil,mil,MIL,6,158,Brewers,2017/06/07/sfnmlb-milmlb-1,F,9,media_archive,Final,N,Y,Miller Park,32
+12,hou,hou,HOU,5,117,Astros,14-490982-2017-06-07,N,8:15 PM,1,490982,R,P,MLB,kca,kc,KC,7,118,Royals,2017/06/07/houmlb-kcamlb-1,F,9,media_archive,Final,N,Y,Kauffman Stadium,7
+13,sdn,sd,SD,4,135,Padres,14-490989-2017-06-07,N,9:40 PM,1,490989,R,P,MLB,ari,ari,ARI,7,109,D-backs,2017/06/07/sdnmlb-arimlb-1,F,9,media_archive,Final,N,Y,Chase Field,15
+14,min,min,MIN,5,142,Twins,14-490985-2017-06-07,N,10:10 PM,1,490985,R,P,MLB,sea,sea,SEA,6,136,Mariners,2017/06/07/minmlb-seamlb-1,F,9,media_archive,Final,N,N,Safeco Field,680
