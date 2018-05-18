@@ -37,11 +37,11 @@ def print_help():
 
 def validate_date(date_arg):
   """Ensures date is a date of proper format"""
-    try:
-      date = dt.strptime(date_arg, DATE_FORMAT)
-    except ValueError:
-      return False
-    return date_arg
+  try:
+    date = dt.strptime(date_arg, DATE_FORMAT)
+  except ValueError:
+    return False
+  return date_arg
 
 def format_request(date):
   """Generate the formatted request URL for date"""
@@ -80,7 +80,7 @@ def write_to_csv(df, date):
   filename = 'game_records_%s.csv'%(date)
   path = os.path.join(records_dir, filename)
   df.to_csv(path)
-  print "csv written to "+"path"
+  print("csv written to "+path)
 
 
 if __name__ == "__main__":
@@ -90,7 +90,7 @@ if __name__ == "__main__":
   ### (script name and date), and that the date is
   ### properly formatted
   args = sys.argv
-  if len(args) <> 2:
+  if len(args)!= 2:
     print_help()
   date = sys.argv[1]
   date = validate_date(date)
@@ -104,11 +104,4 @@ if __name__ == "__main__":
   df = create_df(data)
   df = drop_unwanted_columns(df, wanted_cols)
   write_to_csv(df, date)
-
-
-
-
-
-
-
 
