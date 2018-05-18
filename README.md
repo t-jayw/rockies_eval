@@ -11,7 +11,6 @@ requirements.txt` to install the necessary packages for both scripts.
 * accepts date argument as '2018-05-16'
 * pulls game data from Gameday API and outputs a CSV with specified columns
 
-***
 #### README.txt
 All following information is additionally included in a file README.txt, per specifications. 
 
@@ -22,6 +21,8 @@ All following information is additionally included in a file README.txt, per spe
 * The script with create a new directory `daily_games_records` if it does not exist where output CSVs will be stored
 * Required packages not from the standard library are found in requirements.txt. 
 
+***
+***
 
 ### sql_eval
 * the script connects to a mysql db
@@ -29,7 +30,6 @@ All following information is additionally included in a file README.txt, per spe
 SQL
 * loads results to pandas to dump into a .csv
 
-***
 #### Using this script
 * script does not require any arguments, simply run `>> python slashLines.py`
 * credentials for accessing db are hardcoded 
