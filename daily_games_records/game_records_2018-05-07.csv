@@ -1,8 +1,0 @@
-,away_code,away_file_code,away_name_abbrev,away_score,away_team_id,away_team_name,calendar_event_id,double_header_sw,event_time,game_nbr,game_pk,game_type,gameday_sw,group,home_code,home_file_code,home_name_abbrev,home_score,home_team_id,home_team_name,id,ind,inning,media_state,series,series_num,status,tbd_flag,top_inning,venue,venue_id
-0,sfn,sf,SF,0,137,Giants,14-529931-2018-05-07,N,7:05 PM,1,529931,R,P,MLB,phi,phi,PHI,11,143,Phillies,2018/05/07/sfnmlb-phimlb-1,F,9,media_dead,Regular Season,1,Final,N,Y,Citizens Bank Park,2681
-1,nyn,nym,NYM,7,121,Mets,14-529930-2018-05-07,N,7:10 PM,1,529930,R,P,MLB,cin,cin,CIN,6,113,Reds,2018/05/07/nynmlb-cinmlb-1,F,9,media_dead,Regular Season,1,Final,N,N,Great American Ball Park,2602
-2,det,det,DET,6,116,Tigers,14-529926-2018-05-07,N,8:05 PM,1,529926,R,P,MLB,tex,tex,TEX,7,140,Rangers,2018/05/07/detmlb-texmlb-1,F,9,media_dead,Regular Season,1,Final,N,Y,Globe Life Park in Arlington,13
-3,mia,mia,MIA,2,146,Marlins,14-529928-2018-05-07,N,8:05 PM,1,529928,R,P,MLB,chn,chc,CHC,14,112,Cubs,2018/05/07/miamlb-chnmlb-1,F,9,media_dead,Regular Season,1,Final,N,Y,Wrigley Field,17
-4,min,min,MIN,6,142,Twins,14-529929-2018-05-07,N,8:10 PM,1,529929,R,P,MLB,sln,stl,STL,0,138,Cardinals,2018/05/07/minmlb-slnmlb-1,F,9,media_dead,Regular Season,1,Final,N,N,Busch Stadium,2889
-5,hou,hou,HOU,16,117,Astros,14-529927-2018-05-07,N,10:05 PM,1,529927,R,P,MLB,oak,oak,OAK,2,133,Athletics,2018/05/07/houmlb-oakmlb-1,F,9,media_dead,Regular Season,1,Final,N,N,Oakland Coliseum,10
-6,was,was,WSH,8,120,Nationals,14-529932-2018-05-07,N,10:10 PM,1,529932,R,P,MLB,sdn,sd,SD,5,135,Padres,2018/05/07/wasmlb-sdnmlb-1,F,9,media_dead,Regular Season,1,Final,N,N,Petco Park,2680
