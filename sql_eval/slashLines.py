@@ -85,9 +85,9 @@ GROUP BY batter_id
 
 # manage and utilize connection to mysql server
 try:
-  cnx = mysql.connector.connect(user='tyler_wood', password='GoRockies2018',
-  host="rockies-data-engineer.cxac4memkn4c.us-east-1.rds.amazonaws.com",
-  port=3306)
+  cnx = mysql.connector.connect(user=<USER>, password=<PW>,
+  host=<HOST>,
+  port=<PORT>)
 except mysql.connector.errors.ProgrammingError:
   print('Invalid DB credentials. Please update connection params in the script')
   exit()
