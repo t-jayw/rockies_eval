@@ -1,4 +1,5 @@
 #### Using this script
+
 * From a command line, navigate to the directory containing the script
 * `scrapeGamesByDate.py`
 * Run the command `>> python scrapeGamesByDate.py [DATE]` where `[DATE]` is a
